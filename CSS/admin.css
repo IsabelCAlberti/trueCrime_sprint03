@@ -1,0 +1,13 @@
+
+.grafico{
+    background-color: black;
+width: 40%;
+
+}
+
+.container-grafico{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}

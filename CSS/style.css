@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2? family= Amatic+SC & family= Cinzel:wght@400;500;600;700;800;900 & family= Indie+Flower & família= Marcador+Permanente & família= Sigmar & família= Vollkorn:wght@400;500;600;700 & display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+ }
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url(https://images.pexels.com/photos/8827/road-man-lights-legs.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+    no-repeat 65% 80%;
+  background-color: rgb(249, 221, 221);
+  background-blend-mode: multiply;
+  overflow-x: hidden;
+}
+
+.headerNav {
+  font-family: "Vollkorn", "poppins", "roboto", "sans-serif";
+  font-size: 800;
+  background-color: #0707070c;
+}
+
+.headerNav ul,
+a {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
+  color: #000000;
+  /* text-shadow: 1px 3px  #e5d8d8ff; */
+}
+
+.headerNav li {
+  margin: 1rem;
+}
+
+.wel-text {
+  margin-top: 20%;
+  margin-right: 60%;
+  opacity: 0.75;
+  background-color: black;
+  text-align: center;
+  padding: 25px;
+}
+
+.h1-title {
+  font-family: "Able", sans-serif;
+  font-size: 400%;
+  color: #c40018;
+  line-height: 50px;
+}
+
+.h3-title {
+  margin-top: 1rem;
+  font-family: "Comfortaa", cursive;
+  font-size: 150%;
+  color: #fff;
+  line-height: 22px;
+}
+
+.container-meio {
+  margin-top: 10%;
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+.container-meio h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.text {
+  font-family: "EB Garamond", serif, "Comfortaa";
+  text-align: justify;
+  line-height: 1.5em;
+  max-width: 970px;
+  margin-top: 1.5rem;
+  margin-left: 21%;
+}
+
+.text::first-letter {
+  font-family: "Kanit", sans-serif;
+  font-size: 6.5em;
+  font-weight: 700;
+  float: left;
+  line-height: 80px;
+  margin-right: 3px;
+  color: #c40018;
+}
+
+.title-divider {
+  border-top: 10px ridge #d51313;
+}
+
+
+/* .imagem-true-crime #img_logo {
+    width: 25%;
+    margin: 1rem;
+  } 
+  .texto-inicio {
+    margin-left: 40%;
+    margin-right: 2rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    text-align: justify;
+    text-shadow: 0px 1px rgb(207, 10, 10);
+  }
+
+ h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+    text-shadow: 0px 1px rgb(207, 10, 10);
+    line-height: 1.5rem;
+  }
+  
+  h1 span {
+    color: #c48294;
+    text-shadow: 3px 4px #070707;
+    font-weight: bold;
+    font-size: 40px;
+  } */
+
+
+  /*SCROLL*/
+  ::-webkit-scrollbar {
+    width: 10px;
+  }  /* tamanho da linha*/
+  
+  ::-webkit-scrollbar-track {
+    background-color:rgb(196, 0, 24);
+  } /* cor de fundo do scrool*/
+  
+   ::-webkit-scrollbar-thumb {
+    background-color: #000000; 
+    border-radius: 20px;
+  } /* cor da barra de rolagem*/
